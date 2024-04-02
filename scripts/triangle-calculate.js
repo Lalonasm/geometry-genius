@@ -1,4 +1,4 @@
-console.log('connected')
+// console.log('connected')
 function calculateTriangleArea() {
     // get base value;
     const triangleBaseInput = document.getElementById('triangle-base');

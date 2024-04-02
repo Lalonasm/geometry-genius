@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="button">Make Background Red</button>
+    <p id="name">Programming Hero</p>
+
+
+    <span id=”balance”>value</span>
+
+    <script>
+      document.getElementById('balance').value = 1250;
+
+        document.getElementById('button').addEventListener('click', function () {
+            document.body.style.backgroundColor = 'red';
+        });
+        const nameOfOrganization = document.getElementById("name").value;
+
+        console.log(nameOfOrganization);
+    </script>
+</body>
+
+</html>
